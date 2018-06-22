@@ -5,4 +5,5 @@ targets:
 buildpack: https://github.com/heroku/heroku-buildpack-python
 user: "airflow"
 group: "airflow"
-
+env:
+  - PIPENV_VERSION=10.11.4
