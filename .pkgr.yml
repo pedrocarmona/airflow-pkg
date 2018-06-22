@@ -1,7 +1,8 @@
 targets:
   ubuntu-16.04:
+    env:
+      - STACK=heroku-16
 buildpack: https://github.com/heroku/heroku-buildpack-python
 user: "airflow"
 group: "airflow"
-env:
-  - STACK=heroku-16
+
