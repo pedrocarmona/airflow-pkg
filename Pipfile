@@ -1,0 +1,78 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+alembic = "==0.8.10"
+apache-airflow = "==1.9.0"
+bcrypt = "==3.1.4"
+bleach = "==2.1.2"
+certifi = "==2018.1.18"
+cffi = "==1.11.5"
+chardet = "==3.0.4"
+click = "==6.7"
+configparser = "==3.5.0"
+croniter = "==0.3.20"
+dill = "==0.2.7.1"
+docutils = "==0.14"
+flask = "==0.11.1"
+flask-admin = "==1.4.1"
+flask-bcrypt = "==0.7.1"
+flask-cache = "==0.13.1"
+flask-login = "==0.2.11"
+flask-swagger = "==0.2.13"
+flask-wtf = "==0.14"
+funcsigs = "==1.0.0"
+future = "==0.16.0"
+"gitdb2" = "==2.0.3"
+gitpython = "==2.1.8"
+gunicorn = "==19.7.1"
+"html5lib" = "==1.0.1"
+idna = "==2.6"
+itsdangerous = "==0.24"
+"jinja2" = "==2.8.1"
+lockfile = "==0.12.2"
+lxml = "==3.8.0"
+mako = "==1.0.7"
+markdown = "==2.6.11"
+markupsafe = "==1.0"
+numpy = "==1.14.1"
+ordereddict = "==1.1"
+pandas = "==0.22.0"
+psutil = "==4.4.2"
+"psycopg2" = "==2.7.4"
+pycparser = "==2.18"
+pygments = "==2.2.0"
+python-daemon = "==2.1.2"
+python-dateutil = "==2.7.0"
+python-editor = "==1.0.3"
+"python-nvd3" = "==0.14.2"
+python-slugify = "==1.1.4"
+pytz = "==2018.3"
+pyyaml = "==3.12"
+requests = "==2.18.4"
+setproctitle = "==1.1.10"
+six = "==1.11.0"
+"smmap2" = "==2.0.3"
+sqlalchemy = "==1.2.5"
+tabulate = "==0.7.7"
+thrift = "==0.11.0"
+unidecode = "==1.0.22"
+"urllib3" = "==1.22"
+webencodings = "==0.5.1"
+werkzeug = "==0.14.1"
+wtforms = "==2.1"
+"zope.deprecation" = "==4.3.0"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"
