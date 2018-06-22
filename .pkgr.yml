@@ -1,0 +1,5 @@
+targets:
+  ubuntu-16.04:
+buildpack: https://github.com/heroku/heroku-buildpack-python
+user: "airflow"
+group: "airflow"
