@@ -6,7 +6,6 @@ name = "pypi"
 [dev-packages]
 
 [packages]
-pip = "==9.0.3"
 cython = "*"
 pytz = "*"
 pyopenssl = "*"

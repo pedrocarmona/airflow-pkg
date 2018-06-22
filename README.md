@@ -25,8 +25,9 @@ This was initially created with pip 9.0.3, because pip 10 was failing to downloa
 
 ```
 docker-compose run --rm app bash
-
-pipenv install pip==9.0.3 --dev
+cd /usr/src/app
+pip install pip==9.0.3
+pip install pipenv==11.10.4
 
 pipenv install Cython \
     && pipenv install pytz \
