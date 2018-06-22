@@ -2,8 +2,9 @@ targets:
   ubuntu-16.04:
     env:
       - STACK=heroku-16
-buildpack: https://github.com/heroku/heroku-buildpack-python
+buildpack: https://github.com/pedrocarmona/heroku-buildpack-python
 user: "airflow"
 group: "airflow"
 env:
-  - PIP_UPDATE="9.0.3"
+  - PIP_VERSION=9.0.3
+  - PIPENV_VERSION=10.11.4
