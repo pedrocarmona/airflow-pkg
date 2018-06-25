@@ -17,5 +17,3 @@ ndg-httpsclient = "*"
 flask-oauthlib = "==0.9.4"
 apache-airflow = {extras = ["postgres", "crypto", "gcp-api", "celery", "async", "password", "slack"], version = "==1.8.2"}
 
-[requires]
-python_version = "2.7"
