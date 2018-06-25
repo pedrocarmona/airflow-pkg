@@ -8,7 +8,7 @@ sudo wget -O /etc/apt/sources.list.d/airflow-pkg.list \
   https://default:#################################################@dl.packager.io/srv/pedrocarmona/airflow-pkg/master/installer/ubuntu/16.04.repo
 
 sudo apt-get update
-sudo apt-get install airflow-pkg
+sudo apt-get install airflow
 ```
 
 You should configure this as a unix package and configure it via /etc/.
