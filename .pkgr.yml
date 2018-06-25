@@ -4,6 +4,11 @@ targets:
       - STACK=heroku-16
       - PYTHON_PIP_VERSION=9.0.3
       - PIPENV_VERSION=11.10.4
+  ubuntu-18.04:
+    env:
+      - STACK=heroku-18
+      - PYTHON_PIP_VERSION=9.0.3
+      - PIPENV_VERSION=11.10.4
   centos-7:
     env:
       - PYTHON_PIP_VERSION=9.0.3
