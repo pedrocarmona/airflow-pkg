@@ -36,6 +36,7 @@ docker-compose run --rm app bash
 cd /usr/src/app
 pip install pip==9.0.3
 pip install pipenv==11.10.4
+pipenv install pip==9.0.3
 
 pipenv install Cython \
     && pipenv install pytz \
