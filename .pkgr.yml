@@ -8,6 +8,10 @@ targets:
     env:
       - PYTHON_PIP_VERSION=9.0.3
       - PIPENV_VERSION=11.10.4
+    build_dependencies:
+      - mysql-devel
+    dependencies:
+      - mysql-devel
 buildpack: https://github.com/pedrocarmona/heroku-buildpack-python
 user: "airflow"
 group: "airflow"
