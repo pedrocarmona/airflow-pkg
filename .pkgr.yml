@@ -9,7 +9,7 @@ targets:
       - default-libmysqlclient-dev
     dependencies:
       - python3-dev
-      - default-libmysqlclient-dev
+      - libmysqlclient-dev
   ubuntu-18.04:
     env:
       - STACK=heroku-18

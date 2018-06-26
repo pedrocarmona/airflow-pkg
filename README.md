@@ -47,6 +47,7 @@ pipenv install Cython \
     && pipenv install psycopg2-binary \
     && pipenv install pyasn1 \
     && pipenv install Flask-OAuthlib==0.9.4 \
-    && pipenv install apache-airflow[async,crypto,celery,gcp_api,password,postgres,slack]==1.8.2
+    && pipenv install mysqlclient \
+    && pipenv install apache-airflow[async,crypto,celery,gcp_api,password,postgres,slack,redis]==1.8.2
 
 ```
