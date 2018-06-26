@@ -17,6 +17,7 @@ ndg-httpsclient = "*"
 flask-oauthlib = "==0.9.4"
 apache-airflow = {extras = ["gcp-api", "celery", "crypto", "postgres", "redis", "password", "async", "slack"], version = "==1.8.2"}
 pip = "==9.0.3"
+mysqlclient = "*"
 
 [requires]
 python_version = "3.6"
