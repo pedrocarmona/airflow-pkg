@@ -21,17 +21,6 @@ targets:
     dependencies:
       - python3-dev
       - default-libmysqlclient-dev
-  centos-7:
-    env:
-      - STACK=heroku-16
-      - PYTHON_PIP_VERSION=9.0.3
-      - PIPENV_VERSION=11.10.4
-    build_dependencies:
-      - python3-devel
-      - mysql-devel
-    dependencies:
-      - python3-devel
-      - mysql-devel
 buildpack: https://github.com/pedrocarmona/heroku-buildpack-python
 user: "airflow"
 group: "airflow"
