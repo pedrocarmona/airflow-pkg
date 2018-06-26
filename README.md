@@ -33,10 +33,6 @@ This was initially created with pip 9.0.3, because pip 10 was failing to downloa
 
 ```
 docker-compose run --rm app bash
-cd /usr/src/app
-pip install pip==9.0.3
-pip install pipenv==11.10.4
-pipenv install pip==9.0.3
 
 pipenv install Cython \
     && pipenv install pytz \
@@ -48,6 +44,7 @@ pipenv install Cython \
     && pipenv install pyasn1 \
     && pipenv install Flask-OAuthlib==0.9.4 \
     && pipenv install mysqlclient \
+    && pipenv install redis \
     && pipenv install apache-airflow[async,crypto,celery,gcp_api,password,postgres,slack,redis]==1.8.2
 
 ```
