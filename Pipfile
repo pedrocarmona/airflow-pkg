@@ -15,7 +15,7 @@ ndg-httpsclient = "*"
 "psycopg2-binary" = "*"
 "pyasn1" = "*"
 flask-oauthlib = "==0.9.4"
-apache-airflow = {extras = ["async", "crypto", "gcp-api", "password", "celery", "postgres", "slack"], version = "==1.8.2"}
+apache-airflow = {extras = ["gcp-api", "celery", "crypto", "postgres", "redis", "password", "async", "slack"], version = "==1.8.2"}
 pip = "==9.0.3"
 
 [requires]
