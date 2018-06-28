@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "40eba3cd6dba1b337ade142267f2b28e0071cacb9a52b8a5ca7f03b13558f907"
+            "sha256": "a4dd1c6b8ec16492278ff5c03a4b6b5f9bdbc35294cfdfb255c0c4f9c328f275"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -140,6 +140,7 @@
                 "sha256:edabd457cd23a02965166026fd9bfd196f4324fe6032e866d0f3bd0301cd486f",
                 "sha256:fdf1c1dc5bafc32bc5d08b054f94d659422b05aba244d6be4ddc1c72d9aa70fb"
             ],
+            "markers": "platform_python_implementation != 'pypy'",
             "version": "==1.11.5"
         },
         "chardet": {
@@ -229,6 +230,21 @@
                 "sha256:624dc244b94371bb2d6e7f40084228a2edfff02373fe20e018bef1ee92fdd5b3"
             ],
             "version": "==0.2.8.2"
+        },
+        "docker": {
+            "hashes": [
+                "sha256:dbed56b8ba57b23919794e7cdcf7340c5052e9fd1cbe64b90b4eb9106437e0e3",
+                "sha256:e9cc39e24905e67ba9e2df14c94488f5cf030fb72ae1c60de505ce5ea90503f7"
+            ],
+            "index": "pypi",
+            "version": "==3.4.0"
+        },
+        "docker-pycreds": {
+            "hashes": [
+                "sha256:0a941b290764ea7286bd77f54c0ace43b86a8acd6eb9ead3de9840af52384079",
+                "sha256:8b0e956c8d206f832b06aa93a710ba2c3bcbacb5a314449c040b0b814355bbff"
+            ],
+            "version": "==0.3.0"
         },
         "docutils": {
             "hashes": [

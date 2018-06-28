@@ -46,6 +46,7 @@ pipenv install Cython \
     && pipenv install mysqlclient \
     && pipenv install redis \
     && pipenv install 'sqlalchemy>=1.1.15, <1.2.0' \
+    && pipenv install docker \
     && pipenv install apache-airflow[async,crypto,celery,gcp_api,password,postgres,slack,redis]==1.8.2
 
 ```
