@@ -36,17 +36,15 @@ docker-compose run --rm app bash
 
 pipenv install Cython \
     && pipenv install pytz \
-    && pipenv install pyOpenSSL \
-    && pipenv install jinja2 \
-    && pipenv install cryptography \
-    && pipenv install ndg-httpsclient \
-    && pipenv install psycopg2-binary \
     && pipenv install pyasn1 \
-    && pipenv install Flask-OAuthlib==0.9.4 \
-    && pipenv install mysqlclient \
-    && pipenv install redis \
-    && pipenv install 'sqlalchemy>=1.1.15, <1.2.0' \
-    && pipenv install docker \
-    && pipenv install apache-airflow[async,crypto,celery,gcp_api,password,postgres,slack,redis]==1.8.2
+    && pipenv install 'jinja2==2.8.1' \
+    && pipenv install 'httplib2==0.9.2' \
+    && pipenv install google-auth \
+    && pipenv install google-auth-httplib2 \
+    && pipenv install google-cloud-container \
+    && pipenv install google-api-python-client \
+    && pipenv install PyOpenSSL \
+    && pipenv install pandas-gbq \
+    && pipenv install apache-airflow[async,crypto,celery,password,postgres,slack,redis,segment,statsd,docker,mysql]==1.9.0
 
 ```
