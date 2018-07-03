@@ -37,7 +37,6 @@ docker-compose run --rm app bash
 pipenv install Cython \
     && pipenv install pytz \
     && pipenv install pyasn1 \
-    && pipenv install 'jinja2==2.8.1' \
     && pipenv install 'httplib2==0.9.2' \
     && pipenv install google-auth \
     && pipenv install google-auth-httplib2 \
@@ -45,6 +44,7 @@ pipenv install Cython \
     && pipenv install google-api-python-client \
     && pipenv install PyOpenSSL \
     && pipenv install pandas-gbq \
+    && pipenv install 'docker==3.4.1' \
     && pipenv install apache-airflow[async,crypto,celery,password,postgres,slack,redis,segment,statsd,docker,mysql]==1.9.0
 
 ```

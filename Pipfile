@@ -15,6 +15,7 @@ google-api-python-client = "*"
 pyopenssl = "*"
 pandas-gbq = "*"
 apache-airflow = {extras = ["segment", "statsd", "slack", "async", "crypto", "mysql", "celery", "redis", "postgres", "password", "docker"], version = "==1.9.0"}
+docker = "==3.4.1"
 
 [dev-packages]
 
