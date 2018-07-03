@@ -44,7 +44,6 @@ pipenv install Cython \
     && pipenv install google-api-python-client \
     && pipenv install PyOpenSSL \
     && pipenv install pandas-gbq \
-    && pipenv install 'docker==3.4.1' \
     && pipenv install apache-airflow[async,crypto,celery,password,postgres,slack,redis,segment,statsd,docker,mysql]==1.9.0
 
 ```
