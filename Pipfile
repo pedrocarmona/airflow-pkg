@@ -14,7 +14,8 @@ google-cloud-container = "*"
 google-api-python-client = "*"
 pyopenssl = "*"
 pandas-gbq = "*"
-apache-airflow = {extras = ["crypto", "redis", "slack", "password", "postgres", "mysql", "celery", "segment", "async", "statsd", "docker"], version = "==1.9.0"}
+sqlalchemy = ">=1.1.15, <1.2.0"
+apache-airflow = {extras = ["postgres", "segment", "slack", "password", "redis", "crypto", "statsd", "docker", "celery", "mysql", "async"], version = "==1.9.0"}
 
 [dev-packages]
 

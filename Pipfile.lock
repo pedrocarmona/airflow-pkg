@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "77fef64b03dee50993948a497ca7aa240390af9f6c47795603eed184e8b26638"
+            "sha256": "530d271e3429b91948963d86922740f7fe67acca83381caaefe4365dc9e2a5fa"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -154,6 +154,7 @@
                 "sha256:edabd457cd23a02965166026fd9bfd196f4324fe6032e866d0f3bd0301cd486f",
                 "sha256:fdf1c1dc5bafc32bc5d08b054f94d659422b05aba244d6be4ddc1c72d9aa70fb"
             ],
+            "markers": "platform_python_implementation != 'pypy'",
             "version": "==1.11.5"
         },
         "chardet": {
@@ -965,9 +966,10 @@
         },
         "sqlalchemy": {
             "hashes": [
-                "sha256:e21e5561a85dcdf16b8520ae4daec7401c5c24558e0ce004f9b60be75c4b6957"
+                "sha256:8b0ec71af9291191ba83a91c03d157b19ab3e7119e27da97932a4773a3f664a9"
             ],
-            "version": "==1.2.9"
+            "index": "pypi",
+            "version": "==1.1.18"
         },
         "statsd": {
             "hashes": [
