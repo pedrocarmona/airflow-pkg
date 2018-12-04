@@ -4,6 +4,8 @@ targets:
       - STACK=heroku-16
       - PYTHON_PIP_VERSION=9.0.3
       - PIPENV_VERSION=11.10.4
+      - AIRFLOW_GPL_UNIDECODE=yes
+      - SLUGIFY_USES_TEXT_UNIDECODE=yes
     build_dependencies:
       - python3-dev
       - libmysqlclient-dev
@@ -15,6 +17,8 @@ targets:
       - STACK=heroku-18
       - PYTHON_PIP_VERSION=9.0.3
       - PIPENV_VERSION=11.10.4
+      - AIRFLOW_GPL_UNIDECODE=yes
+      - SLUGIFY_USES_TEXT_UNIDECODE=yes
     build_dependencies:
       - python3-dev
       - default-libmysqlclient-dev
