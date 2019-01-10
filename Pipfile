@@ -15,9 +15,9 @@ google-api-python-client = "*"
 pyopenssl = "*"
 raven = "*"
 pandas-gbq = "*"
-flask-login = "==0.3"
+redis = "==2.10.6"
 sqlalchemy = ">=1.1.15, <1.2.0"
-apache-airflow = {extras = ["async", "password", "mysql", "segment", "docker", "slack", "postgres", "celery", "redis", "statsd", "crypto"], version = "==1.10.1"}
+apache-airflow = {extras = ["segment", "slack", "statsd", "crypto", "async", "password", "docker", "mysql", "postgres", "celery"], version = "==1.10.1"}
 
 [dev-packages]
 

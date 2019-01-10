@@ -45,8 +45,9 @@ pipenv install Cython \
     && pipenv install PyOpenSSL \
     && pipenv install raven \
     && pipenv install pandas-gbq \
+    && pipenv install redis==2.10.6 \
     && pipenv install 'sqlalchemy>=1.1.15, <1.2.0' \
-    && pipenv install apache-airflow[async,crypto,celery,password,postgres,slack,redis,segment,statsd,docker,mysql]==1.10.1
+    && pipenv install apache-airflow[async,crypto,celery,password,postgres,slack,segment,statsd,docker,mysql]==1.10.1
 
 ```
 
