@@ -33,22 +33,9 @@ This was initially created with pip 9.0.3, because pip 10 was failing to downloa
 
 ```
 docker-compose run --rm app bash
-
-pipenv install Cython \
-    && pipenv install pytz \
-    && pipenv install pyasn1 \
-    && pipenv install 'httplib2==0.9.2' \
-    && pipenv install google-auth \
-    && pipenv install google-auth-httplib2 \
-    && pipenv install google-cloud-container \
-    && pipenv install google-api-python-client \
-    && pipenv install PyOpenSSL \
-    && pipenv install raven \
-    && pipenv install pandas-gbq \
-    && pipenv install redis==2.10.6 \
-    && pipenv install 'sqlalchemy>=1.1.15, <1.2.0' \
-    && pipenv install apache-airflow[async,crypto,celery,password,postgres,slack,segment,statsd,docker,mysql]==1.10.1
-
+export AIRFLOW_GPL_UNIDECODE=yes
+export SLUGIFY_USES_TEXT_UNIDECODE=yes
+pipenv install -e -r build-requirements.txt
 ```
 
 notes:

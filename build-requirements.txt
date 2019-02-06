@@ -1,0 +1,15 @@
+Cython
+pytz
+pyasn1
+httplib2==0.9.2
+google-auth
+google-auth-httplib2
+google-cloud-container
+google-api-python-client
+PyOpenSSL
+sentry-sdk==0.7.0
+pandas-gbq
+redis==2.10.6
+sqlalchemy>=1.1.15, <1.2.0
+apache-airflow[async,crypto,celery,password,postgres,slack,segment,statsd,docker,mysql]==1.10.1
+
